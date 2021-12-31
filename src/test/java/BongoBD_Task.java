@@ -17,7 +17,7 @@ public class BongoBD_Task {
 
     }
 
-    @Test(priority=0)
+    @Test
     void Window_Maximize(){
         driver.manage().window().maximize();
 
